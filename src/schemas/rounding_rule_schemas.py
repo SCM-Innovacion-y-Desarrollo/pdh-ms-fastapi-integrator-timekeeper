@@ -3,7 +3,7 @@ from typing import Optional
 
 from pydantic import BaseModel
 
-from src.models.rounding_rule import TypePunchOmitedRoundingEnum
+from ..models.rounding_rule import TypePunchOmitedRoundingEnum
 
 
 class ConfigPunchInOutInput(BaseModel):

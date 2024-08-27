@@ -3,11 +3,11 @@ from typing import Generic, List, Optional, TypeVar
 from pydantic import BaseModel
 
 
-from src.models.break_rule import StartBreakByEnum
-from src.models.rounding_rule import TypePunchOmitedRoundingEnum
-from src.models.bonus_rule import TimePeriodEnum
-from src.models.fixed_rule import HoursBelongToEnum, TypePaymentPeriodEnum
-from src.models.zone import (
+from ..models.break_rule import StartBreakByEnum
+from ..models.rounding_rule import TypePunchOmitedRoundingEnum
+from ..models.bonus_rule import TimePeriodEnum
+from ..models.fixed_rule import HoursBelongToEnum, TypePaymentPeriodEnum
+from ..models.zone import (
     TypeConsecutiveEnum,
     DiferentialQualifiersBasedByEnum, TypeZoneEnum,
     DaysNameEnum, HolidayZoneDeductedTimeEnum,
@@ -16,10 +16,10 @@ from src.models.zone import (
 )
 
 
-from src.schemas.holiday_schemas import HolidayModel
-from src.schemas.overtime_rule_schemas import OvertimeRuleDBModel
+from ..schemas.holiday_schemas import HolidayModel
+from ..schemas.overtime_rule_schemas import OvertimeRuleDBModel
 
-from src.models.system import BaseModelo
+from ..models.system import BaseModelo
 
 M = TypeVar("M", bound=BaseModel)
 T = TypeVar('T', bound=BaseModel)

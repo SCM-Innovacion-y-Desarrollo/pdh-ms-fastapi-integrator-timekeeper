@@ -4,10 +4,10 @@ from typing import List, Optional
 from pydantic import BaseModel
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.paycode_combination import PaycodeCombination
-from src.models.system import BaseModelo
-from src.schemas.filters import FilterModel
-from src.schemas.paycode_schemas import PaycodeModel
+from ..models.paycode_combination import PaycodeCombination
+from ..models.system import BaseModelo
+from ..schemas.filters import FilterModel
+from ..schemas.paycode_schemas import PaycodeModel
 
 
 class PaycodeCombinationRPaycodeModel(BaseModel):

@@ -3,8 +3,8 @@ from typing import Optional
 
 from pydantic import BaseModel
 
-from src.models.system import DaysIntEnum, DaysNameEnum
-from src.models.zone import (DiferentialQualifiersBasedByEnum,
+from ..models.system import DaysIntEnum, DaysNameEnum
+from ..models.zone import (DiferentialQualifiersBasedByEnum,
                              TypeConsecutiveEnum, TypeZoneEnum,
                              WeekDaysApplyToEnum)
 

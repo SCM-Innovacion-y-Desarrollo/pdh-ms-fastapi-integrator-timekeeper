@@ -3,7 +3,7 @@ from typing import List, Optional
 from pydantic import BaseModel
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.credit_holiday_rule import (ConsiderOnExtratimeEnum,
+from ..models.credit_holiday_rule import (ConsiderOnExtratimeEnum,
                                             CreditHolidayRule, CreditTypeEnum,
                                             HoursBelongEnum,
                                             PayCreditsLikeEnum,
@@ -11,9 +11,9 @@ from src.models.credit_holiday_rule import (ConsiderOnExtratimeEnum,
                                             ShiftEquivalentToEnum,
                                             TimeDeductedFromHolidayCredit,
                                             ZoneHolidayDefinedByEnum)
-from src.models.system import BaseModelo
-from src.schemas.filters import FilterModel
-from src.schemas.paycode_schemas import PaycodeModel, PaycodeModelInput
+from ..models.system import BaseModelo
+from ..schemas.filters import FilterModel
+from ..schemas.paycode_schemas import PaycodeModel, PaycodeModelInput
 
 
 class CreditHolidayRuleModel(BaseModel):

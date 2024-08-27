@@ -6,9 +6,9 @@ from iso3166 import countries
 from pydantic import validator
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.holiday import Holiday
-from src.models.system import BaseModelo
-from src.schemas.filters import FilterModel
+from ..models.holiday import Holiday
+from ..models.system import BaseModelo
+from ..schemas.filters import FilterModel
 
 
 class CountryModel(BaseModelo):

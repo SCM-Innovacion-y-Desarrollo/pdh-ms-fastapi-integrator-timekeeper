@@ -3,7 +3,7 @@ version: '3'
 services:
   integrator-timekeeper:
     image: pdh-integrator-timekeeper
-     build:
+    build:
       context: .
       dockerfile: Dockerfile
     ports:
