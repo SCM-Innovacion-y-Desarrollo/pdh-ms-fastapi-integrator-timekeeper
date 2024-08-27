@@ -3,10 +3,10 @@ from typing import Dict, List, Optional, Union
 from pydantic import BaseModel
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.paycode import (AmountPaycodesHoursEnum, Paycode,
+from ..models.paycode import (AmountPaycodesHoursEnum, Paycode,
                                 TypePaycodeEnum, UnitPaycodeEnum)
-from src.models.system import BaseModelo
-from src.schemas.filters import FilterModel
+from ..models.system import BaseModelo
+from ..schemas.filters import FilterModel
 
 
 class OptionsGeneralModel(BaseModelo):

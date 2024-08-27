@@ -3,12 +3,12 @@ from typing import List, Optional
 from pydantic.fields import Field
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.combination_rule import CombinationRule
-from src.models.system import BaseModelo
-from src.schemas.filters import FilterModel
-from src.schemas.overtime_rule_schemas import (OvertimeRuleIDModel,
+from ..models.combination_rule import CombinationRule
+from ..models.system import BaseModelo
+from ..schemas.filters import FilterModel
+from ..schemas.overtime_rule_schemas import (OvertimeRuleIDModel,
                                                OvertimeRuleModel)
-from src.schemas.schemas import ScheduleDesviationRuleModel, ZoneModel
+from ..schemas.schemas import ScheduleDesviationRuleModel, ZoneModel
 
 
 class CombinationRuleModel(BaseModelo):

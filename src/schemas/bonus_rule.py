@@ -3,8 +3,8 @@ from typing import Optional
 
 from pydantic import BaseModel
 
-from src.models.bonus_rule import BonusActivateByEnum, TimePeriodEnum
-from src.models.system import DaysNameEnum
+from ..models.bonus_rule import BonusActivateByEnum, TimePeriodEnum
+from ..models.system import DaysNameEnum
 
 
 class BonusRuleInput(BaseModel):

@@ -5,10 +5,10 @@ from typing import List, Optional
 from pydantic import BaseModel
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.overtime_rule import OvertimeRule, ValidityPeriodEnum
-from src.models.system import DaysNameEnum
-from src.schemas.filters import FilterModel
-from src.schemas.paycode_schemas import PaycodeModel
+from ..models.overtime_rule import OvertimeRule, ValidityPeriodEnum
+from ..models.system import DaysNameEnum
+from ..schemas.filters import FilterModel
+from ..schemas.paycode_schemas import PaycodeModel
 
 
 class OvertimeRuleModel(BaseModel):

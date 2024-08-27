@@ -3,13 +3,13 @@ from typing import List, Optional
 from pydantic import BaseModel
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.paycodes_distibution import PaycodesDistribution
-from src.models.system import BaseModelo
-from src.schemas.filters import FilterModel
-from src.schemas.overtime_rule_schemas import (OvertimeRuleDBModel,
+from ..models.paycodes_distibution import PaycodesDistribution
+from ..models.system import BaseModelo
+from ..schemas.filters import FilterModel
+from ..schemas.overtime_rule_schemas import (OvertimeRuleDBModel,
                                                OvertimeRuleModel)
-from src.schemas.paycode_schemas import PaycodeModel
-from src.schemas.schemas import (CombinationRuleNameModel,
+from ..schemas.paycode_schemas import PaycodeModel
+from ..schemas.schemas import (CombinationRuleNameModel,
                                  ScheduleDesviationRuleModel, ZoneModel)
 
 

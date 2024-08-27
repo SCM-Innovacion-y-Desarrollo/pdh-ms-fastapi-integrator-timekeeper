@@ -4,9 +4,9 @@ from typing import List, Optional
 from pydantic import BaseModel
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.fixed_rule import (FixedRule, HoursBelongToEnum,
+from ..models.fixed_rule import (FixedRule, HoursBelongToEnum,
                                    TypePaymentPeriodEnum)
-from src.schemas.filters import FilterModel
+from ..schemas.filters import FilterModel
 
 
 class FixedRuleModel(BaseModel):

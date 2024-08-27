@@ -3,9 +3,9 @@ from typing import List, Optional
 from pydantic import BaseModel
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.schedule_desviation_rule import ScheduleDesviationRule
-from src.models.system import BaseModelo
-from src.schemas.filters import FilterModel
+from ..models.schedule_desviation_rule import ScheduleDesviationRule
+from ..models.system import BaseModelo
+from ..schemas.filters import FilterModel
 
 
 class ScheduleDesviationRuleModel(BaseModel):

@@ -1,6 +1,6 @@
 from typing import List, Optional
 from pydantic import BaseModel
-from src.schemas.combination_rule_schemas import CombinationRuleModelResponse
+from ..schemas.combination_rule_schemas import CombinationRuleModelResponse
 
 class PaycodesDistributionRPaycodeModel(BaseModel):
     paycodes_distribution_id:    Optional[int] = None

@@ -3,10 +3,10 @@ from typing import List, Optional
 from pydantic import BaseModel
 
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
-from src.models.exception_rule import ExceptionRule
-from src.models.system import BaseModelo
-from src.schemas.filters import FilterModel
-from src.schemas.paycode_schemas import PaycodeModel
+from ..models.exception_rule import ExceptionRule
+from ..models.system import BaseModelo
+from ..schemas.filters import FilterModel
+from ..schemas.paycode_schemas import PaycodeModel
 
 
 class ExceptionRuleModel(BaseModel):

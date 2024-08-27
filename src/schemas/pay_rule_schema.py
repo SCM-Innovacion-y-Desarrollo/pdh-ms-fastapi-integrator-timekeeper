@@ -2,10 +2,10 @@
 from typing import Optional, List
 from typing import List, Optional
 
-from src.models.system import BaseModelo, DaysNameEnum
-from src.schemas.holiday_schemas import HolidayModel
-from src.models.system import BaseModelo, DaysNameEnum
-from src.models.pay_rule import PayRule
+from ..models.system import BaseModelo, DaysNameEnum
+from ..schemas.holiday_schemas import HolidayModel
+from ..models.system import BaseModelo, DaysNameEnum
+from ..models.pay_rule import PayRule
 from fastapi_filter.contrib.sqlalchemy.filter import Filter
 
 
